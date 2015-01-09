@@ -6,6 +6,33 @@ Activity: Problem Solving
 A Cat, a Parrot, and a Bag of Seed:
 Problem:
 A man cannot get to the other side of the river by boat due to the limited amount of space for him and his belongings.
+The goal is for both the man, the cat, the parrot and the bag of seed to make it to the other side of the river.
+
+The constraints are:
+1. The boat will not carry all both the man and his belongings at the same time due to size
+2. The parrot will eat the bag of seed
+3. The cat will eat the parrot
+
+The Sub Goals are:
+1. Keep the parrot safe
+2. Keep the bag of food safe
+
+Possible Solutions:
+1. Let the parrot fly alongside the boat to drop the cat off then go back for the seed with the parrot flying
+2. Take a the bag of seed to one side while the parrot fly alongside and go back to get the cat
+
+Solution 1:
+The goals are meet as all items will make it to the other side of the river
+
+Solution 2:
+The goals are meet as there are no requirements stating that the parrot cannot fly.
+
+Final Solution:
+
+The man place the bag of seed in the boat and the bird will fly alongside him. He will drop the seed off at the other
+side and go back with the parrot for the cat. The parrot will then fly alongside him again and all items and the man
+will be together on the other side of the river.
+
 
 
 Socks in the Dark:
@@ -13,14 +40,43 @@ Problem:
 There are several socks in a drawer varying in color and the individual selecting the socks cannot use light until
 the selection has been made.
 
-A:At least four socks would guarantee at least 1 matching pair.
+Goal (A)
+To choose a matching pair of socks
+
+Constraints:
+1. Without light it is difficult to confirm your selection.
+
+Sub Goals:
+Choose as few socks as possible
+Ensure that socks are matching
+
+Solution A:
+1. Choose the total amount of socks + 1
+
+Final Solution:
+The total smallest number of socks that would need to be selected is 4. At least 4 socks would guarantee at
+least 1 matching pair.
+
 Example scenarios:
 1black+1brown+1white+1brown=2brown socks
 1white+1black+1white+1brown=2white socks
 1black+1black+1brown+1brown=2black and 2 brown socks.
 Since there are only 3 colors to pick the fourth color has to match one of the first 3 socks picked.
 
-B:At least 18 socks would guarantee one of each color:
+Goal (B)
+To select at least 6 socks with 3 matches.
+
+Constraints:
+1. No light
+2. There needs to be a match for all 3 colored socks.
+
+Solution (B)
+1. Select all the socks in the drawer.
+2. Select all of the socks for the 2 highest quantity color of socks.
+
+Final Solution
+Pick 10(amount of black socks)+6(amount of brown socks)+2 (at least 1 pair of white socks)
+At least 18 socks would guarantee one of each color
 If you choose at least 7 socks then they could all the black or
 You could have 6 brown socks and 1 white sock which means you wouldn't have all 3 colors
 The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+1
