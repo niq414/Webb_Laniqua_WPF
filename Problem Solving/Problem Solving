@@ -1,0 +1,8 @@
+Socks in the Dark
+A:At least four socks would guarantee at least 1 matching pair.
+Example scenarios:
+1black+1brown+1white+1brown=2brown socks
+1white+1black+1white+1brown=2white socks
+1black+1black+1brown+1brown=2black and 2 brown socks.
+Since there are only 3 colors to pick the fourth color has to match one of the first 3 socks picked.
+
