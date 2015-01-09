@@ -12,7 +12,7 @@ A man cannot get to the other side of the river by boat due to the limited amoun
 The goal is for both the man, the cat, the parrot and the bag of seed to make it to the other side of the river.
 
 The constraints are:
-1. The boat will not carry all both the man and his belongings at the same time due to size
+1. The boat will not carry both the man and all of his belongings at the same time due to size
 2. The parrot will eat the bag of seed
 3. The cat will eat the parrot
 
@@ -32,9 +32,9 @@ The goals are meet as there are no requirements stating that the parrot cannot f
 
 Final Solution:
 
-The man place the bag of seed in the boat and the bird will fly alongside him. He will drop the seed off at the other
-side and go back with the parrot for the cat. The parrot will then fly alongside him again and all items and the man
-will be together on the other side of the river.
+The man will place the bag of seed in the boat and the bird will fly alongside him. He will drop the seed off at the
+other side and go back with the parrot for the cat. The parrot will then fly alongside him again and all items and
+the man will be together on the other side of the river.
 
 
 
@@ -51,14 +51,14 @@ Constraints:
 1. Without light it is difficult to confirm your selection.
 
 Sub Goals:
-Choose as few socks as possible
+Choose the least amount of socks as possible to remove from the drawer
 Ensure that socks are matching
 
 Solution A:
 1. Choose the total amount of socks + 1
 
 Final Solution:
-The total smallest number of socks that would need to be selected is 4. At least 4 socks would guarantee at
+The total smallest number of socks that would need to be selected is 4. A minimum 4 socks would guarantee at
 least 1 matching pair.
 
 Example scenarios:
@@ -80,11 +80,12 @@ Solution (B)
 
 Final Solution
 Pick 10(amount of black socks)+6(amount of brown socks)+2 (at least 1 pair of white socks)
-At least 18 socks would guarantee one of each color
-If you choose at least 7 socks then they could all the black or
+At least 18 socks would guarantee one pair of each color
+If you choose at least 7 socks then they could all be black or
 You could have 6 brown socks and 1 white sock which means you wouldn't have all 3 colors
-The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+1
-In the event that the first 16 socks are only black or brown then the last sock must be white.
+The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+(2)
+white socks
+In the event that the first 16 socks are only black or brown then the last 2 socks must be white.
 
 
                                            Predicting Fingers
@@ -104,7 +105,7 @@ Possible Solutions
 1. Count using fingers to see which finger the number in question lands on.
 2. Calculate the difference from thumb to thumb then jump to the number in question
 
-Each Solution meets the goals solution 1 can be more time consuming and my yield unreliable results depending on the
+Each Solution meets the goals solution 1 can be more time consuming and may yield unreliable results depending on the
 number in question.
 
 Final Solutions:
@@ -113,5 +114,5 @@ B:The difference from where the thumb lands from start to finish is 8 if 50 land
 we can say that 100 lands on the thumb.
 C:To determine the finger 1000 would land on we will first solve the equation
 8/1000=125
-125/8=15
+8/125=15
 Now counting by hand 15 lands on the middle finger therefore 1000 lands on the middle finger
