@@ -86,22 +86,32 @@ You could have 6 brown socks and 1 white sock which means you wouldn't have all 
 The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+1
 In the event that the first 16 socks are only black or brown then the last sock must be white.
 
+
                                            Predicting Fingers
 
 Problem:
 A girl is counting on her fingers using only one hand, and we need to determine which finger she will stop on.
 
 Constraints:
-1. There is on one hand being used for counting.
+1. There is only one hand being used for counting.
 2. The order in which counting is done is not consistent as she does not start with the same finger each time.
 
 Sub Goals:
 1. We first must determine the amount it takes for a finger to make a round trip in counting.
 2. We need to determine the counting pattern that is being used.
 
+Possible Solutions
+1. Count using fingers to see which finger the number in question lands on.
+2. Calculate the difference from thumb to thumb then jump to the number in question
 
+Each Solution meets the goals solution 1 can be more time consuming and my yield unreliable results depending on the
+number in question.
 
 Final Solutions:
-A:First finger
-B:
-C:
+A:It is easier to count by hand for this one and when doing so the number 10 lands on the First finger
+B:The difference from where the thumb lands from start to finish is 8 if 50 lands on the thumb then since 50+50=100
+we can say that 100 lands on the thumb.
+C:To determine the finger 1000 would land on we will first solve the equation
+8/1000=125
+125/8=15
+Now counting by hand 15 lands on the middle finger therefore 1000 lands on the middle finger
