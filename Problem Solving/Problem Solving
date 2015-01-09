@@ -1,5 +1,10 @@
-A Cat, a Parrot, and a Bag of Seed:
+Laniqua Webb
+January 8 2015
+Scalable Data Infrastructures
+Activity: Problem Solving
 
+A Cat, a Parrot, and a Bag of Seed:
+The
 
 
 Socks in the Dark
@@ -10,7 +15,11 @@ Example scenarios:
 1black+1black+1brown+1brown=2black and 2 brown socks.
 Since there are only 3 colors to pick the fourth color has to match one of the first 3 socks picked.
 
-B:
+B:At least 18 socks would guarantee one of each color:
+If you choose at least 7 socks then they could all the black or
+You could have 6 brown socks and 1 white sock which means you wouldn't have all 3 colors
+The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+1
+In the event that the first 16 socks are only black or brown then the last sock must be white.
 
 Predicting Fingers:
 A:
