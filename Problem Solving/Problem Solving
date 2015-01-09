@@ -3,7 +3,10 @@ January 8 2015
 Scalable Data Infrastructures
 Activity: Problem Solving
 
-A Cat, a Parrot, and a Bag of Seed:
+
+
+                                         A Cat, a Parrot, and a Bag of Seed
+
 Problem:
 A man cannot get to the other side of the river by boat due to the limited amount of space for him and his belongings.
 The goal is for both the man, the cat, the parrot and the bag of seed to make it to the other side of the river.
@@ -35,7 +38,8 @@ will be together on the other side of the river.
 
 
 
-Socks in the Dark:
+                                               Socks in the Dark
+
 Problem:
 There are several socks in a drawer varying in color and the individual selecting the socks cannot use light until
 the selection has been made.
@@ -67,7 +71,7 @@ Goal (B)
 To select at least 6 socks with 3 matches.
 
 Constraints:
-1. No light
+1. There is no light to see what you are picking up.
 2. There needs to be a match for all 3 colored socks.
 
 Solution (B)
@@ -82,7 +86,22 @@ You could have 6 brown socks and 1 white sock which means you wouldn't have all 
 The only way to guarantee that you have 1 of each color is to add the black socks(10)+ the brown socks(6)+1
 In the event that the first 16 socks are only black or brown then the last sock must be white.
 
-Predicting Fingers:
-A:
+                                           Predicting Fingers
+
+Problem:
+A girl is counting on her fingers using only one hand, and we need to determine which finger she will stop on.
+
+Constraints:
+1. There is on one hand being used for counting.
+2. The order in which counting is done is not consistent as she does not start with the same finger each time.
+
+Sub Goals:
+1. We first must determine the amount it takes for a finger to make a round trip in counting.
+2. We need to determine the counting pattern that is being used.
+
+
+
+Final Solutions:
+A:First finger
 B:
 C:
