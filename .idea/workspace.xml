@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c1441a-d489-4ec9-8a42-b455a4186f10" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Webb_Laniqua_Flowchart_assignment/Appraisal Process.graphml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Webb_Laniqua_Flowchart_assignment/Appraisal Request Flowchart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Webb_Laniqua_Flowchart_assignment/unnamed0.graphml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Webb_Laniqua_ProblemSolving.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Webb_Laniqua_Flowchart_assignment/Appraisal Process.pdf" afterPath="" />
     </list>
     <ignored path="Webb_Laniqua_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
