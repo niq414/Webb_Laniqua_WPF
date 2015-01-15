@@ -1,6 +1,3 @@
-// Arrays
+//Prompt and Alert
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
-
-console.log(muppetNames[1]);//lets me see whats in the index #1
-muppetNames[1] = "Rizzo";
+prompt("Enter your year of birth");
