@@ -57,4 +57,10 @@ var groceryAverage = groceryTotal / 5;
 console.log("You have spent a total of " + groceryTotal + " on groceries over the past 5 weeks. This is an average of " + groceryAverage + " per week.")
 alert("You have spent a total of " + groceryTotal + " on groceries over the past 5 weeks. This is an average of " + groceryAverage + " per week.")
 
-//
+//Discount Calculations
+
+var originalPrice = prompt("What is the original price of the item?")
+var discountPercent = prompt("What is the discount percentage?")
+
+var discountPrice = originalPrice * discountPercent
+console.log(discountPrice)
