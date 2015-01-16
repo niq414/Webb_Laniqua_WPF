@@ -34,4 +34,4 @@ var partyPeople = prompt("How many people are at the party?")
 //Create an expression that multiplies the number of pizzas and the number of slices divided by the amount of people at the party
 var pizzaEaten = pizzaSlices * pizzasOrdered / partyPeople
 console.log(pizzaEaten)
-alert("Each person may have " + pizzaEaten " slices of pizza");
+alert("Each person may have " + pizzaEaten + " slices of pizza");
