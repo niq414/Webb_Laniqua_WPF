@@ -22,4 +22,16 @@ alert ("Sparky is " + dogYear + " in dog years!");
 
 //Sparky is 5 human years old which is 35 in dog years
 
+//Calculate how many slices of pizza each person at the party will be able to get
 
+//Define the variable
+var pizzasOrdered = prompt("How many pizza\'s were ordered?");
+var pizzaSlices = prompt("How many slices are given in each pizza?")
+var partyPeople = prompt("How many people are at the party?")
+
+
+
+//Create an expression that multiplies the number of pizzas and the number of slices divided by the amount of people at the party
+var pizzaEaten = pizzaSlices * pizzasOrdered / partyPeople
+console.log(pizzaEaten)
+alert("Each person may have " + pizzaEaten " slices of pizza");
