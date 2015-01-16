@@ -35,3 +35,26 @@ var partyPeople = prompt("How many people are at the party?")
 var pizzaEaten = pizzaSlices * pizzasOrdered / partyPeople
 console.log(pizzaEaten)
 alert("Each person may have " + pizzaEaten + " slices of pizza");
+
+
+
+//Calculate the average amount spent on groceries of the past five weeks
+
+//List of weeks being calculated
+var week1 = prompt("What was the amount spent on week 1?")
+var week2 = prompt("What was the amount spent on week 2?")
+var week3 = prompt("What was the amount spent on week 3?")
+var week4 = prompt("What was the amount spent on week 4?")
+var week5 = prompt("What was the amount spent on week 5?")
+
+//Expression for the total amount spent of over 5 weeks
+var groceryTotal = week1 + week2 + week3 + week4 + week5
+console.log(groceryTotal)
+
+//Expression for the total amount spent divided by 5 weeks
+var groceryAverage = groceryTotal / 5;
+
+console.log("You have spent a total of " + groceryTotal + " on groceries over the past 5 weeks. This is an average of " + groceryAverage + " per week.")
+alert("You have spent a total of " + groceryTotal + " on groceries over the past 5 weeks. This is an average of " + groceryAverage + " per week.")
+
+//
