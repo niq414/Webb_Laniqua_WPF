@@ -8,3 +8,9 @@ var goddessBraids = b = 3;
 var upDo = c = 2;
 
 
+var hairPacks = boxBraid * 5 + goddessBraids * 3 + upDo * 2;
+
+//Alert the user of the total amount of hair packs needed based on the hairstyle for each client
+
+
+
