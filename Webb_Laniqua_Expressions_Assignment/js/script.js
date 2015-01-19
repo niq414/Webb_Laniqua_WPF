@@ -19,5 +19,6 @@ var hairPacks = boxBraid * 5 + goddessBraids * 3 + upDo * 2;
 
 //Alert the user of the total amount of hair packs needed based on the hairstyle for each client
 
+console.log("You will need " + hairPacks + " packs of hair.")
 
 
