@@ -2,6 +2,8 @@
 
 //This calculator will calculate how many packs of hair a hairstylist will need for her scheduled clients
 
+//I typed in 5 for a, 3 for b, and 2 for c and my calculator gave me 38
+
 // The amount of hair packs that each style requires
 var boxBraid = a = 5;
 var goddessBraids = b = 3;
@@ -24,3 +26,4 @@ alert ("You will need " + hairPacks + " packs of hair!");
 
 //You will need +hairPacks+ of hair.
 
+//I typed in 2 for a, 4 for b, and 10 for c and my calculator gave me
