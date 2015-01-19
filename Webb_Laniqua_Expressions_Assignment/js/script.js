@@ -26,4 +26,4 @@ alert ("You will need " + hairPacks + " packs of hair!");
 
 //You will need +hairPacks+ of hair.
 
-//I typed in 2 for a, 4 for b, and 10 for c and my calculator gave me
+//I typed in 2 for a, 4 for b, and 10 for c and my calculator gave me 42
