@@ -7,6 +7,13 @@ var boxBraid = a = 5;
 var goddessBraids = b = 3;
 var upDo = c = 2;
 
+//Determine how many clients are scheduled and which styles they will be getting
+
+var boxBraid = prompt("How many clients are scheduled for Boxed Braids?");
+var goddessBraids = prompt("How many clients are scheduled for Goddess Braids");
+var upDo = prompt("How many clients are scheduled for an Up-do");
+
+// Multiply each hair style by the amount of hair packs needed and add the amount needed for each style together
 
 var hairPacks = boxBraid * 5 + goddessBraids * 3 + upDo * 2;
 
