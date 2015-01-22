@@ -7,19 +7,24 @@
 
 var mealCalories = prompt("How many calories are in the meal?");
 var servingSize = prompt("How many servings are in the meal?");
+
 //The appetizer is only 1 serving
+
 var appetizerCalories = prompt("How many calories are in the appetizer?");
-//If the user is a child then they may have a slice of pie regardless of the calorie intake
-var userAge = prompt("What is your age?");
 
-var totalCalories = mealCalories * servingSize + appetizerCalories
 
+
+var totalCalories = mealCalories * servingSize + appetizerCalories;
+console.log(totalCalories);
+
+/*
 if(totalCalories < 800 || userAge < 17){
-    console.log("You may have a slice of pie!")
+    console.log("You consumed " + totalCalories + " may have a slice of pie!")
 }else{
     console.log("You may have an apple!")
 }
 
-if(totalCalories < 800 && userAge <= 21){
+if(totalCalories < 900 && userAge <= 21){
     console.log("You may have a slice of pie and a drink!")
 }
+ */
