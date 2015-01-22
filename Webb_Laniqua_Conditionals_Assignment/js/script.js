@@ -23,11 +23,11 @@ console.log(totalCalories);
 
 
 if(totalCalories < 800 || userAge < 17){
-    console.log("You consumed " + totalCalories + " you may have a slice of pie!")
+    console.log("You consumed " + totalCalories + " calories, you may have a slice of pie!")
 }else{
-    console.log("You consumed " +totalCalories+ " you may have an apple!")
+    console.log("You consumed " +totalCalories+ " calories, you may have an apple!")
 }
 
 if(totalCalories < 900 && userAge <= 21){
-    console.log("You consumed " +totalCalories+ " You may have a slice of pie and a drink!")
+    console.log("You consumed " +totalCalories+ " calories, You may have a slice of pie and a drink!")
 }
