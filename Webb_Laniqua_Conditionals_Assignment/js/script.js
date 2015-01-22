@@ -30,7 +30,7 @@ if(totalCalories < 800 || userAge < 17){
    alert("You consumed " +totalCalories+ " calories, you may have an apple!")
 }
 
-if(totalCalories < 900 && userAge <= 21){
+if(totalCalories < 800 && userAge <= 21){
     console.log("You consumed " +totalCalories+ " calories, You may have a slice of pie and a drink!")
     alert("You consumed " +totalCalories+ " calories, You may have a slice of pie and a drink!")
 }
