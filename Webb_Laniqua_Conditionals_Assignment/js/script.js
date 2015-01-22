@@ -3,28 +3,31 @@
 //This is a calculator that will calculate the amount of calories and servings in a meal and determine if the user
 //may have a small dessert.
 
+var mealCalories = 1;
+var servingSize = 1;
+var appetizerCalories = 1;
+
+
+
 //Definition of the variables that will be used to determine the users eligibility
 
 var mealCalories = prompt("How many calories are in the meal?");
 var servingSize = prompt("How many servings are in the meal?");
-
-//The appetizer is only 1 serving
-
 var appetizerCalories = prompt("How many calories are in the appetizer?");
+var userAge = prompt("What is your age?");
 
 
 
-var totalCalories = mealCalories * servingSize + appetizerCalories;
+var totalCalories = mealCalories * servingSize + parseInt(appetizerCalories);
 console.log(totalCalories);
 
-/*
+
 if(totalCalories < 800 || userAge < 17){
-    console.log("You consumed " + totalCalories + " may have a slice of pie!")
+    console.log("You consumed " + totalCalories + " you may have a slice of pie!")
 }else{
-    console.log("You may have an apple!")
+    console.log("You consumed " +totalCalories+ " you may have an apple!")
 }
 
 if(totalCalories < 900 && userAge <= 21){
-    console.log("You may have a slice of pie and a drink!")
+    console.log("You consumed " +totalCalories+ " You may have a slice of pie and a drink!")
 }
- */
