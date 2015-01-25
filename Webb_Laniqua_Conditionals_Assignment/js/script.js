@@ -33,3 +33,4 @@ if(totalCalories < 800 || userAge < 17){
    alert("You consumed " +totalCalories+ " calories, you may have an apple!")
 }
 
+/* I typed 200 for calories 2 for servings and 200 for appetizer and my calculator gave me 600 total calories. */
