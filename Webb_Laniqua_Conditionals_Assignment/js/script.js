@@ -21,16 +21,15 @@ var userAge = prompt("What is your age?");
 var totalCalories = mealCalories * servingSize + parseInt(appetizerCalories);
 console.log(totalCalories);
 
-
+if(totalCalories < 700 && userAge >= 21) {
+    console.log("You consumed " + totalCalories + " calories, You may have a slice of pie and a drink!");
+    alert("You consumed " + totalCalories + " calories, You may have a slice of pie and a drink!")
+}
 if(totalCalories < 800 || userAge < 17){
-    console.log("You consumed " + totalCalories + " calories, you may have a slice of pie!")
+    console.log("You consumed " + totalCalories + " calories, you may have a slice of pie!");
     alert("You consumed " + totalCalories + " calories, you may have a slice of pie!")
 }else{
-    console.log("You consumed " +totalCalories+ " calories, you may have an apple!")
+    console.log("You consumed " +totalCalories+ " calories, you may have an apple!");
    alert("You consumed " +totalCalories+ " calories, you may have an apple!")
 }
 
-if(totalCalories < 800 && userAge <= 21){
-    console.log("You consumed " +totalCalories+ " calories, You may have a slice of pie and a drink!")
-    alert("You consumed " +totalCalories+ " calories, You may have a slice of pie and a drink!")
-}
